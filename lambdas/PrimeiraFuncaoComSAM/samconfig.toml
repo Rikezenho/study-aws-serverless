@@ -1,0 +1,10 @@
+version = 0.1
+[default]
+[default.deploy]
+[default.deploy.parameters]
+stack_name = "PrimeiraFuncaoSAMStack"
+s3_bucket = "aws-sam-cli-managed-default-samclisourcebucket-8zcdxi7bwszb"
+s3_prefix = "PrimeiraFuncaoSAMStack"
+region = "us-east-1"
+confirm_changeset = true
+capabilities = "CAPABILITY_IAM"
